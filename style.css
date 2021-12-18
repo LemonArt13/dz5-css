@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Akronim-Regular.woff";
+    src: url('./Akronim-Regular.woff') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.list-item{
+    display: inline-block;
+}
+
+
+.list-link{
+    margin-left: 25px;
+    color: navy;
+    transition: color .5s;
+    text-decoration: none;
+}
+
+.list-link:hover{
+    color:yellow;
+}
+
+.list-left{
+    text-align: left;
+}
+
+
+.list-center{
+    text-align: center;
+}
+
+.list-right{
+    text-align: right;
+}
+
+.font-popins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-popins-100{
+    font-weight: 100;
+}
+
+.font-popins-300{
+    font-weight: 300;
+}
+
+.font-popins-400{
+    font-weight: 400;
+}
+
+.font-popins-700{
+    font-weight: 700;
+}
+
+.font-akronim{
+    font-family:'Akronim-Regular';
+}
+
+.font-akronim-400{
+    font-weight: 400;
+}
+
+.text{
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+.text-left{
+    text-align: left;
+    background: violet;
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+    background: black;
+    color: white;
+}
+
+.text-right{
+    text-align: right;
+    background: greenyellow;
+    color:black;
+}
+
+.hover-link{
+    color:black;
+    transition:color .5s;
+}
+
+.hover-link-red:hover{
+    color:red;
+}
+
+.hover-link-blue:hover{
+    color:blue;
+}
+
+.hover-link-green:hover{
+    color:green;
+}
+
+.hover-link-yellow:hover{
+    color:yellow;
+}
+
+.hover-link-grey:hover{
+    color:grey;
+}
+
+
+.circle1{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: red;
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: yellow;
+}
+.circle3{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: green;
+}
+.circle{
+    display: inline-block;
+}
+
+.cube{
+    display: inline-block;
+}
+.cube1{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: red;
+}
+.cube2{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: yellow;
+}
+.cube3{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: green;
+}
+
+.circle-and-cube{
+    display: inline-block;
+    margin-right: 50px;
+}
